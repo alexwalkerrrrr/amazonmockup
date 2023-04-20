@@ -1,0 +1,160 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #F0F2F2;
+    
+}
+
+a {
+    color: #007185;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-color: #131921;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    color: #FFF;
+    font-size: 24px;
+    margin: 0;
+}
+
+header a {
+    color: #FFF;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    padding-left: 1in;
+    padding-right: 1in;
+
+}
+
+.product, .cart-item {
+    background-color: #FFF;
+    padding: 1rem;
+    border: 1px solid #DDD;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product form, .cart-item form {
+    
+    display: flex;
+    align-items: center;
+}
+
+input[type="submit"] {
+    background-color: #F0C14B;
+    border: 1px solid #A88734;
+    color: #111;
+    padding: 0.5rem 1rem;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 1rem;
+}
+
+input[type="submit"]:hover {
+    background-color: #FFD666;
+}
+
+h2 {
+    
+    border-bottom: 1px solid #DDD;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+/* styles.css */
+
+/* ... (previous styles) ... */
+
+/* Title banner */
+.banner {
+    margin-bottom: 1in;
+    background-color: #232F3E;
+    padding: 1rem 0;
+    text-align: center;
+    
+}
+
+.banner h1 {
+    color: #FFF;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+.footer {
+    margin-top: 1in;
+    background-color: #00A8E1; /* Alexa Blue */
+    padding: 2rem 0;
+    color: #FFF;
+
+    
+    
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 1rem;
+}
+
+.footer-section h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.footer-section p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+/* styles.css */
+
+/* ... (previous styles) ... */
+
+/* Cart button */
+.cart-button {
+    background-color: #00A8E1; /* Alexa Blue */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.cart-button:last-of-type {
+  float: right;
+}
+/* Add 1 inch of padding to left and right sides of entire website */
